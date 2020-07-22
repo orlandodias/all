@@ -1,20 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>br.com.orlandodias</groupId>
         <artifactId>all</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>br.com.orlandodias</groupId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>all-utils</artifactId>
-    <name>allutils</name>
-    <description>base library</description>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>allentita</artifactId>
 
     <dependencies>
-        <dependency>
+         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
@@ -23,8 +21,11 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
+            <groupId>br.com.orlandodias</groupId>
+            <artifactId>all-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
+
 </project>
