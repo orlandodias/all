@@ -7,6 +7,9 @@
     <groupId>br.com.orlandodias</groupId>
     <artifactId>all</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>all-utils</module>
+    </modules>
     <name>Allegro Debt Collection System Project</name>
     <packaging>pom</packaging>
 
