@@ -35,7 +35,7 @@
         <primefaces.version>6.0</primefaces.version>
         <icarus.layout.version>1.1</icarus.layout.version>
         <commons.logging.verion>1.2</commons.logging.verion>
-        <itextpdf.version>5.0.6</itextpdf.version>
+        <itextpdf.version>5.5.12</itextpdf.version>
         <jstl.version>1.2</jstl.version>
 
         <orlandodias.all.version>0.0.1-SNAPSHOT</orlandodias.all.version>
